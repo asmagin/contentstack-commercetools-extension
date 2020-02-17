@@ -1,0 +1,16 @@
+query($locale: Locale!, $text: String!) {
+  categoryAutocomplete(locale: $locale, text: $text) {
+    results {
+      name(locale: $locale)
+      key
+      assets {
+        sources {
+          uri
+        }
+      }
+      ancestors {
+        name(locale: $locale)
+      }
+    }
+  }
+}

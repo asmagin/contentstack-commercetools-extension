@@ -1,0 +1,11 @@
+.single-group {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  /* background: #fcfcfc; */
+  padding: 20px;
+  border: 1px solid #e6eced;
+}

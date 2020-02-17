@@ -1,0 +1,26 @@
+.fieldError {
+  position: relative;
+  padding: 10px;
+  border-image: initial;
+  border-radius: 2px;
+  background-color: #ffeeee;
+  margin-left: 0 !important;
+  border: 1px solid #ede6e6;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.03);
+}
+.content {
+  padding-right: 10px;
+  text-overflow: ellipsis;
+}
+
+.iconRemove {
+  position: absolute;
+  font-style: normal;
+  left: auto;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+  color: #63747f;
+  display: block;
+}
